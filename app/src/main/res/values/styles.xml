@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Text_Style">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:fontFamily">@font/arbutus</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/text_padding</item>
+        <item name="android:textAlignment">textStart</item>
+    </style>
+    <style name="Text_Style2">
+        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:fontFamily">@font/arbutus</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/text_padding</item>
+        <item name="android:textAlignment">textStart</item>
+    </style>
+
+    <style name="Button_Style" parent="Text_Style2">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">224dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:backgroundTint">#E91E63</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+</resources>
